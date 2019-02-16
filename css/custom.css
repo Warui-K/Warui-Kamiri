@@ -1,13 +1,12 @@
-/*!
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- */
 
 body {
+
   font-family: 'Philosopher', sans-serif;
   padding-top: 54px;
-  color: #868e96;
-}
+  background-image: linear-gradient(rgba(0, 0, 255, 0.151), rgba(255, 255, 0, 0.281)),
+                  url("imgs/skills.jpg");
+  color: #411307da;}
+
 
 @media (min-width: 992px) {
   body {
@@ -25,7 +24,7 @@ h6 {
   font-family: 'Philosopher', sans-serif;
   font-weight: 10;
   text-transform: uppercase;
-  color: #343a40;
+  color: #111111;
 }
 
 h1 {
@@ -43,7 +42,7 @@ h3 {
 
 p.lead {
   font-size: 1.15rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .subheading {
@@ -57,7 +56,7 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #0077B5;
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
@@ -71,7 +70,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #111111;
 }
 
 .dev-icons {
@@ -116,9 +115,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    max-width: 15rem;
+    max-height: 15rem;
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -152,6 +150,7 @@ section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
+  
 }
 
 section.resume-section .resume-item .resume-date {
@@ -175,15 +174,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: rgb(39, 11, 0) !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #111111 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #0077B5;
 }
 
 a:hover, a:focus, a:active {
