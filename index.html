@@ -1,188 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="Warui Kamiri Resume">
+    <title>Warui Kamiri</title>
+
+    <!--Bootstrap CSS-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Custom Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+
+    <!--Custom Styles-->
+    <link href="css/custom.css" rel="stylesheet">
 </head>
-<body>
-    <nav>
-        <ul>
-           
-            <li><a href="#about-me">About Me</a></li>            
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skill Set</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Warui Kamiri</span>
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="imgs/profile.jpeg" alt="">
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="navbar-item">
+                    <a class="nav-link js-scroll-trigger" href="#about-me">About Me</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link js-scroll-trigger" href="#skills">Skill Set</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    <main>
-        <section id="about-me">
-            <div>
-                <h1>Hi I am Warui Kamiri</h1>
-                <span>Full stack web developer |</span>
-            </div>
-            <div>
-                <h1>About Me</h1>
-                <p>technology enthusiast</p>
-                <p>autodidact</p>
-                <p>full stack web developer</p>
-            </div>
-        </section>
-        <section id="experience">
-            <div>
-                <h1>Experience</h1>
-                <p>
-                    <span>
-                        <time datetime="2017">2017</time>
-                    </span>
-                 Full stack web developer
-                </p>
-                <p>
-                    <span>
-                            <time datetime="2018-08">
-                                August 2018
-                            </time> 
-                            <time datetime="2018-11">
-                                -November 2018
-                            </time>
-                    </span>
-                    Internship, Safaricom PLC, Daraja Team 
-                </p>
-                <p>
-                    <span>
-                            <time datetime="2017-02">
-                                February 2017
-                            </time> 
-                            <time datetime="2017-09">
-                                -September 2017
-                            </time>
-                    </span>
-                    Data Verification Associate and Field
-                    Technician, Com21 Ltd
-                </p>
-                <p>
-                    <span>
-                            <time datetime="2016-01">
-                                January 2016
-                            </time> 
-                            <time datetime="2016-05">
-                                -May 2016
-                            </time>
-                    </span>
-                    Network Field Technician, Afriq Networks
-                </p>
-            </div>
-        </section>
-        <section id="education">
-                <div>
-                    <h1>Education</h1>
-                    <p>
-                        <span>
-                            <time datetime="2017">2017</time>
-                        </span>
-                    Bachelor of Science, Information Technology
-                    </p>
-                    <p>
-                        <span>
-                                <time datetime="2014">
-                                    2018
-                                </time> 
-                                <time datetime="2018">
-                                    -2018
-                                </time>
-                        </span>
-                        Jomo Kenyatta University of Agriculture and Technology 
-                    </p>
-                    
+    <div class="container-fluid p-0">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about-me">
+            <div class="w-100">
+                <h2 class="mb-0">Hi I am Warui Kamiri</h2>
+                <span class="text-primary">Full stack web developer |</span>
+                <span class="text-primary">Technology enthusiast|</span>
+
+                <div class="social-icons">
+                    <a href="https://github.com/Warui-K" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/warui-kamiri/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/Warui__K" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
                 </div>
-            </section>
-            <div>
-                <section id="skills">
-                        <h1>Skill Set</h1>
-                            
-                        <h3>
-                           My Special Expertise
-                        </h3>
-                        <div>
-                       
-                            <h3>
-                            Technical Skills
-                            </h3>
-                            <p>
-                            Programming and web dev
-                            </p>
-                            <p>
-                            Linux
-                            </p>
-                            <p>
-                            Python
-                            </p>
-                            <p>
-                            CMS (Wordpress)
-                            </p>
-                            <p>
-                            UI/UX
-                            </p>
-                            <p>
-                                IT Networking
-                            </p>
+            </div>
+        </section>
+        <hr class="m-0">
+        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+            <div class="w-100">
+                <h2 class="mb-5">Experience</h2>
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h5 class="mb-0">Full stack web developer</h5>
+                        <p>Currently I am a freelancer and am part of a team that creates functional and beautifully
+                            designed websites and graphic designs.
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">
+                            <time datetime="2017">2017</time>
+                            <time datetime="2019">-Present</time>
+                        </span>
+                    </div>
+                </div>
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h5 class="mb-0">Internship, Safaricom PLC, Daraja Team</h5>
+                        <p>As an intern in the Daraja API team, my tasks included conducting support for
+                            developers, integration and implementation of the Daraja Developer Portal.
+                        </p>
+
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">
+                            <time datetime="2018-08">August 2018</time>
+                            <time datetime="2018-11">-November 2018</time>
+
+                        </span>
+                    </div>
+                </div>
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h5 class="mb-0">Data Verification Associate and Field Technician, Com21 Ltd</h5>
+                        <ul>
+                            <li>Conducted training on the utilization, troubleshooting and suliport of the Digital
+                                Literacy Programme (DLP) Devices and specialized software for the visually
+                                impaired persons.
+                            </li>
+                            <li>
+                                As a Data Verification Associate I was tasked with the management of data needed
+                                for the DLP project.
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <time datetime="2017-02">February 2017</time>
+                        <span class="text-primary">
+                            <time datetime="2017-09">-September 2017</time>
+
+                        </span>
+                    </div>
+                </div>
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h5 class="mb-0"> Network Field Technician, Afriq Networks</h5>
+                        <p>Undertook the installation of home, office internet connections and network system
+                            designs.</p>
+
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">
+                            <time datetime="2016-01">January 2016</time>
+                            <time datetime="2016-05">-May 2016</time>
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+            <div class="w-100">
+                <h2 class="mb-5">Education</h2>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h5 class="mb-0">Bachelor of Science, Information Technology</h5>
+                        <div class="subheading mb-3">
+                            Jomo Kenyatta University of Agriculture and Technology
                         </div>
-                        <div>
-                       
-                            <h3>
-                                Professional Skills
-                            </h3>
-                            <p>
-                                Team Oriented
-                            </p>
-                            <p>
-                                Communication Skills
-                            </p>
-                            <p>
-                                Organizational Skills
-                            </p>
-                            <p>
-                                Search Engine Optimization    
-                            </p>
-                            <p>
-                                Social Media Marketing
-                            </p>
-                        </div>
-                            
                     </div>
-                </section>
-                <section id="contact">
-                    <div>
-                        <h3>Find Me</h3>
-                        <span>
-                            <a href="https://github.com/Warui-K" target="_blank">Github</a>
+                    <div class="resume-date text-md-right">
+                        <span class="text-primary">
+                            <time datetime="2014">2014</time>
+                            <time datetime="2018">-2018</time>
                         </span>
-                        <span>
-                            <a href="https://www.linkedin.com/in/warui-kamiri/" target="_blank">Linked In</a>
-                        </span>
-                        <span>
-                            <a href="https://twitter.com/Warui__K" target="_blank">Twitter</a>
-                        </span>
-                    </div>
-                    <div>
-                            <h3>Contact</h3>
-                            <span><a href="tel:254706299095">+254706299095</a></span>
-                          
-                    </div>
-                    <div>
-                            <h3>Blog</h3>
-                            <span>
-                                <a href="https://medium.com/@warui.kamiri" target="_blank">
-                                Medium
-                                </a>
-                            </span>
-                          
                     </div>
 
-                </section>
-    </main>
-    
+                </div>
+            </div>
+        </section>
+        <hr class="m-0">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+            <div class="w-100">
+                <h2 class="mb-5">Skill Set</h2>
+                <div class="subheading mb-3">
+                    Programming Languages &amp; Tools
+                </div>
+                <ul class="list-inline dev-icons">
+                    <li class="list-inline-item">
+                        <i class="fab fa-html5"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-css3-alt"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-js-square"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-wordpress"></i>
+                    </li>
+                </ul>
+
+
+                <div class="subheading mb-3">
+                    Technical Skills
+                </div>
+                <ul class="fa-ul mb-0">
+                    <li>Programming and web dev</li>
+                    <li>Linux</li>
+                    <li>UI/UX</li>
+                    <li>IT Networking</li>
+                    <li>Agile Development &amp; Scrum</li>
+                </ul>
+
+                <div class="subheading mb-3">
+                    Professional Skills
+                </div>
+                <ul class="fa-ul mb-0">
+                    <li>Team Oriented</li>
+                    <li>Communication Skills</li>
+                    <li>Organizational Skills</li>
+                    <li>Search Engine Optimization</li>
+                    <li>Social Media Marketing</li>
+                </ul>
+
+            </div>
+        </section>
+        <hr class="m-0">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
+            <div class="w-100">
+                <h2 class="mb-5">Find Me</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <a href="https://github.com/Warui-K" target="_blank">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/warui-kamiri/" target="_blank">Linked In</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Warui__K" target="_blank">Twitter</a>
+                    </li>
+                </ul>
+                <h2 class="mb-5">Contact</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <a href="tel:254706299095">+254706299095</a>
+                    </li>
+                </ul>
+                <h2 class="mb-5">Blog</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <a href="https://medium.com/@warui.kamiri" target="_blank">
+                            Medium
+                        </a>
+                    </li>
+            </div>
+        </section>
+    </div>
+    <!--Bootstrap core JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!--Plugin JS-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!--Custom JS-->
+    <script src="js/custom.js"></script>
 </body>
+
 </html>
